@@ -1,0 +1,178 @@
+.sign-page {
+  height: 100%;
+  display: flex;
+}
+
+.picture {
+  flex-basis: 50%;
+  background-image: url("logo-wave-symbol-01.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.submit-button {
+  height: 2.5rem;
+  width: 6rem;
+  align-self: center;
+}
+
+.field {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.field-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-fields {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  font-weight: bold;
+  color: rgba(140, 139, 139, 0.3);
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.navbar {
+  margin-bottom: 40px;
+}
+
+a {
+color: rgba(140, 139, 139, 0.46);
+transition: all 0.4s;
+}
+
+.focused {
+  color: black;
+}
+
+.content-wrapper {
+  padding: 20px;
+  flex-basis: 50%;
+}
+
+.chat-screen-wrapper {
+  display: flex;
+  height: 100%;
+}
+
+.friends-list {
+  flex-basis: 20%;
+}
+
+.chat-box {
+  flex-basis: 80%;
+  border-radius: 10px ;
+  display: flex;
+  flex-direction: column;
+  box-shadow: -5px 0 10px rgb(203, 201, 201);
+}
+
+
+.info-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  height: 100px;
+  box-shadow: 0 5px 10px rgb(203, 201, 201);
+}
+
+.logo {
+  height: 60px;
+  margin-left: 20px;
+  align-self: center;
+  width: 45px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url('./logo.png');
+  align-items: center;
+}
+
+.avatar {
+  height: 50px;
+  margin-right: 10px;
+  width: 50px;
+  border: solid 1px black;
+  border-radius: 50%;
+  background-size: 100% 100%;
+  background-image: url('./default-avatar-profile-trendy-style-social-media-user-icon-187599373.jpeg');
+}
+
+.name {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.username {
+  font-size: 15px;
+  color: rgba(79, 78, 78, 0.7);
+} 
+
+.search-wrapper {
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.mess-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 10px 0 5px;
+  border-radius: 10px;
+  border: solid 1px grey;
+  margin-top: auto;
+  height: 65  px;
+  width: 100%;
+}
+
+.submit-btn {
+  cursor: pointer;
+}
+
+.message {
+  border: solid 1px black;
+  border-radius: 15px;
+  font-size: 18px;
+  color: white;
+  background-color: rgb(13, 117, 235);
+  padding: 10px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.message-wrapper {
+  display: flex;
+}
+
+.sender {
+  margin-left: auto;
+}
+
+.mess-list {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.chat-box-wrapper {
+  padding-top: 10px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
